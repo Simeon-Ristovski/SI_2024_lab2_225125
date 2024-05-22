@@ -40,25 +40,25 @@ Control Flow Graph Го изработив на Draw io. Изгледот на �
 
 5. Тест случаи според критериумот Multiple Condition
 
-List<Item> allItems1 = new ArrayList<Item>();
-List<Item> allItems2 = new ArrayList<Item>();
-List<Item> allItems3 = new ArrayList<Item>();
-List<Item> allItems4 = new ArrayList<Item>();
+- List<Item> allItems1 = new ArrayList<Item>();
+- List<Item> allItems2 = new ArrayList<Item>();
+- List<Item> allItems3 = new ArrayList<Item>();
+- List<Item> allItems4 = new ArrayList<Item>();
 
-Item item1 = new Item("Кафе","0123456789",330,1);
-Item item2 = new Item("Кафе","123456789",330,1);
-Item item3 = new Item("Кафе","0123456789",330,0);
-Item item4 = new Item("Кафе","0123456789",300,0);
+- Item item1 = new Item("Кафе","0123456789",330,1);
+- Item item2 = new Item("Кафе","123456789",330,1);
+- Item item3 = new Item("Кафе","0123456789",330,0);
+- Item item4 = new Item("Кафе","0123456789",300,0);
 
-allItems1.add(item1);
-allItems2.add(item2);
-allItems3.add(item3);
-allItems4.add(item4);
+- allItems1.add(item1);
+- allItems2.add(item2);
+- allItems3.add(item3);
+- allItems4.add(item4);
 
-assertTrue(SILab2.checkCart(allItems1,300));
-assertFalse(SILab2.checkCart(allItems2,300));
-assertFalse(SILab2.checkCart(allItems3,300));
-assertFalse(SILab2.checkCart(allItems4,200));
+- assertTrue(SILab2.checkCart(allItems1,300));
+- assertFalse(SILab2.checkCart(allItems2,300));
+- assertFalse(SILab2.checkCart(allItems3,300));
+- assertFalse(SILab2.checkCart(allItems4,200));
 
 За подобар преглед на тест случаите можете да ги погледнете во Java проектот.
 
