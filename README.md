@@ -35,3 +35,34 @@ Control Flow Graph Го изработив на Draw io. Изгледот на �
 - SILab2.checkCart(allItems4,150)
 - SILab2.checkCart(allItems5,190)
 
+За подобар преглед на тест случаите можете да ги погледнете во Java проектот.
+
+
+5. Тест случаи според критериумот Multiple Condition
+
+List<Item> allItems1 = new ArrayList<Item>();
+List<Item> allItems2 = new ArrayList<Item>();
+List<Item> allItems3 = new ArrayList<Item>();
+List<Item> allItems4 = new ArrayList<Item>();
+
+Item item1 = new Item("Кафе","0123456789",330,1);
+Item item2 = new Item("Кафе","123456789",330,1);
+Item item3 = new Item("Кафе","0123456789",330,0);
+Item item4 = new Item("Кафе","0123456789",300,0);
+
+allItems1.add(item1);
+allItems2.add(item2);
+allItems3.add(item3);
+allItems4.add(item4);
+
+assertTrue(SILab2.checkCart(allItems1,300));
+assertFalse(SILab2.checkCart(allItems2,300));
+assertFalse(SILab2.checkCart(allItems3,300));
+assertFalse(SILab2.checkCart(allItems4,200));
+
+За подобар преглед на тест случаите можете да ги погледнете во Java проектот.
+
+6. Објаснување на напишаните unit tests
+
+- За Every Branch тестовите искористив три тестови со assertThrows и два тестови со assertTrue/False.
+- За Multiple Condition тестовите искористив 4 items од кои 1 ги исполнуваше сите 3 if услови, останатите 3 не задоволуваја 1,2 или 3 од зададените if услови.

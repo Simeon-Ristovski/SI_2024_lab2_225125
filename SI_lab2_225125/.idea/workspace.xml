@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c454156d-b97b-4e52-a3a8-b799dda83963" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SILab2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SILab2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SILab2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SILab2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SILab2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SILab2Test.checkCartEveryBranch">
+  <component name="RunManager" selected="Gradle.SILab2Test.MultipleCondition">
     <configuration name="SILab2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -87,6 +86,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;SILab2Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SILab2Test.MultipleCondition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SILab2Test.MultipleCondition&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -123,8 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SILab2Test.checkCartEveryBranch" />
+        <item itemvalue="Gradle.SILab2Test.MultipleCondition" />
         <item itemvalue="Gradle.SILab2Test" />
+        <item itemvalue="Gradle.SILab2Test.checkCartEveryBranch" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716299409337</updated>
       <workItem from="1716299409987" duration="12040000" />
-      <workItem from="1716393297439" duration="3253000" />
+      <workItem from="1716393297439" duration="7018000" />
     </task>
     <servers />
   </component>
